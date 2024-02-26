@@ -40,3 +40,5 @@ Follow the self-deploy steps below on the instance to have the server up and wor
 You now have the server running on at [localhost:8080](http://localhost:8080)
 
 Send a POST request with video_url in the body to `http://localhost:8080/process-video` to get back a S3 object URL for the processed video
+
+For tunnelling a localhost environment, I used [ngrok](https://ngrok.com/download) that helped me hit the endpoint from different PCs
