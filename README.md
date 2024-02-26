@@ -2,6 +2,10 @@
 
 Engineered a dockerized environment of an open-source [REAL ESRGAN model ↗](https://github.com/the-database/mpv-upscale-2x_animejanai) interfaced with a FlaskAPI on an AWS EC2 p2.xlarge instance, ensuring cost-effective scalability for GPU-intensive tasks through NVIDIA’s TensorRT SDK, leading to video enhancement in 2x time. Submitted to [TreeHacks 2024 ↗](https://devpost.com/software/sapheneia)
 
+## Demo
+
+https://github.com/nairvishnumail/Sharp-ai-ly/assets/27198773/c8b4ea97-988f-40ba-a6bb-5c9e5e5a19df
+
 ## AWS Deploy Steps
 
 In order to deploy on AWS, you need to make sure that the AWS account has at least 4 vCPUs available. If you do not have at least 4 vCPUs, you can request more [here](https://support.console.aws.amazon.com/support/home?region=us-east-2#/case/create). Provide a reasonable explanation as to why you need it and within 24-48 hours you should have access to it. 
