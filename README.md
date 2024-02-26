@@ -16,7 +16,16 @@ In order to deploy on AWS, you need to make sure that the AWS account has at lea
 4. Create a security group to allow SSH traffic ("anywhere" is good for testing, but not recommended due to low security)
 5. Choose 45 GB gp3 storage
 
-> **_WARN:_**  AWS EC2 instances that need NVIDIA GPUs can be quite costly, so make sure you terminate the instance once you're done working with it. 
+> **_WARN:_**  AWS EC2 instances that need NVIDIA GPUs can be quite costly, so make sure you terminate the instance once you're done working with it.
+
+### SSH & Setup NVIDIA drivers
+
+1. ssh into the instance by clicking on "connect" and following the ssh steps
+2. Follow steps [here](https://docs.nvidia.com/datacenter/tesla/tesla-installation-notes/index.html#ubuntu-lts) to setup NVIDIA SMI on your EC2 instance. This step is hard to get right since there are many different guides.
+
+### Setting up server
+
+Follow the self-deploy steps below on the instance to have the server up and working. 
 
 ## Self-deploy steps
 
